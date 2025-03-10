@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Termina Regular";
+  src: url(assets/fonts/Termina-Regular.otf);
+}
+
+@font-face {
+  font-family: "Termina Bold";
+  src: url(assets/fonts/Termina-Bold.otf);
+}
+
+body {
+  font-family: "Termina Regular";
+}
+
+a {
+  text-decoration: none;
+  color: #151617;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Termina Bold";
+}
+
+#navigation {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+}
+
+#links-wrapper {
+  display: flex;
+  width: 468px;
+  justify-content: space-between;
+}
+
+#hero-section {
+  height: 203px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f3f3f3;
+}
+
+#hero-title {
+  font-size: 36px;
+}
